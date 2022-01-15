@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+
+/*pré header de la page*/
+.pré-header{
+    text-align: center; 
+    padding: 15px;
+    background-color: #ff1e00;
+}
+
+/* fin pré header de la page*/
+
+/*header de la page*/
+a{
+    margin: 56px;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%;
+}
+header{
+    display: flex;
+    height: 45px;
+    width: 80%;
+    margin-left: 57px;
+    margin-bottom: 35px;
+}
+
+.logo{
+    display: flex;
+    margin: 5px;
+    padding: 2px;  
+    cursor: pointer;
+}
+header .logo p{
+    margin: 9px;
+    cursor: pointer;
+}
+.nav-bar{
+  margin-left: 12%;
+}
+.achat{
+    display: flex;
+    margin: 5px;
+    padding: 8px;
+    position: relative;
+    bottom: 14px;
+    left: 20%;
+    cursor: pointer;
+}
+header .achat p{
+    margin: 3px;
+}
+.contact{
+    display: flex;
+    margin: 5px;
+    padding: 8px;
+    position: relative;
+    bottom: 14px;
+    cursor: pointer;
+}
+header .contact p{
+    margin: 3px;
+}
+.color{
+    color: #ff1e00;
+}
+header .nav-bar a{
+  font-size: 17px;
+}
+header .nav-bar a:hover{
+  opacity: 0.2;
+  
+}
+/* fin du header de la page*/
+/*main page*/
+.hero {
+    display: block;
+    box-sizing: border-box;
+    height: 500px;
+    background-color: #ff1e00;
+    clip-path: ellipse(78% 100% at 37.4% 0%);
+
+}
+
+main button{
+    width: 300px;
+    height: 70px;
+    transition-duration: 0.2s;
+    background-color: #969696;
+    border-radius: 15px;
+}
+main button:hover {
+    background-color: #7e7e7e;
+  }
+.content h1{
+  color: #f8f8f8;
+ position: relative;
+ left: 10%;
+ margin-top: 10px ;
+}
+.content  p{
+    width: 40%;
+    color: white;
+    height: 45px;
+    font-size: 23px;
+   margin-left: 25px;
+}
+main button{
+    position: relative;
+    top: 190px;
+}
+.hero{
+    display: flex;
+}
+.assiette{
+  position: relative;
+  left: 65%;
+bottom: 200PX;
+
+}
+.container {
+    margin: 80px auto;
+    text-align: center;
+  }
+  
+  span {
+    width: 2500px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 150px;
+    left: 110px;
+    
+  }
+  
+  .button {
+    /* POSITIONING */
+    padding: 30px;
+    top: -200px;
+    border-radius: 8px;
+    position: relative;
+    float: left;
+  
+    /* BUTTON STYLING */
+    border-top: 1px solid #fff;
+    box-shadow: 0 5px 8px #ffffff, 0 8px 0 #ffffff, -2px 1px 0 #EBE2FF, 2px 1px 0 #EBE2FF, 0px 8px 10px rgb(83, 83, 83), 0 10px 30px #1b1b1b;
+  
+    /* FONT STYLING */
+    font: bold 30px 'Trebuchet Ms', helvetica;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-shadow: -1px -1px 1px #00172e,1px 1px 1px #a1cfff;
+    color: #ffffff;
+  }
+  
+  .button:hover {  
+    /* BUTTON SHADOW */
+   box-shadow: 0 6px 6px #f77b6e, 0 6px 0 #fd6d5d, -1px 0px 0 #d1a2a2, 0px 0px 0 #d1a2a2, 0px 7px 8px rgb(34, 34, 34), 0 7px 20px #1b1b1b;
+  }
+  
+  .button:active {  
+    border-top: 1px solid #ff8585;
+    /* BUTTON SHADOW */
+   box-shadow: 0 0px 0px #747474, 0 3px 0 #ff9292, 0px 0px 0 #8b8b8b, 0px 0px 0 #a85858, 0px 2px 4px rgb(175, 175, 175), 0 2px 10px #1b1b1b;
+  }
+  
+  /* BLUE GRADIENT ON BUTTON */
+  .grad {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(109, 69, 69)), color-stop(100%,rgb(109, 35, 35)));
+    background: linear-gradient(to bottom, rgb(119, 36, 36) 0%,rgb(255, 5, 5) 100%);
+  }
+  
+  /* ANIMATE THE BUTTON */
+  .transition,
+  .transition:hover,
+  .transition:active{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .highlight {
+    position: relative;
+    margin: -200px auto 0 auto;
+    width: 500px;
+    height: 400px;
+    opacity: 0.3;
+  }
+
+ .vignette span{
+  background: rgba(85, 81, 83, 0.842);
+  height: 180px;
+  box-shadow: 10px 10px 20px black;
+  width: 25%;
+  margin: 15px; 
+  border-radius: 15px;
+}
+
+.vignette .container{
+
+  display: flex;
+  position: relative;
+  margin-top: -27%;
+  
+}
+/*fin de main page*/
+
+/*footer*/
+.footer-index{
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: red;
+  clip-path: ellipse(231% 55% at 198.42% 100%);
+  }
+/* fin du footer*/
+
+/*2eme page*/
+/*menu */
+main .items h1{
+  position: relative;
+  left: 45%;
+
+}
+.alltxtandlogo{
+    display: flex;
+    position: relative;
+    left: 25%;
+}
+.alltxtandlogo .NUMERO2{
+  margin-left: 55px;
+}
+
+section a{
+  color: gray;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+ section ul{
+  display: flex;
+  margin-right:90px;
+justify-content: space-between;
+width: 50%;
+width: 400px;
+}
+
+.bordure1{
+  background:linear-gradient(rgb(0, 0, 0), rgb(63, 57, 57, 0.842));
+  height: 110px;
+}
+.potatopizza{
+  height: 180px;
+  width: 180px;
+}
+.PL1{
+  display: flex;
+  justify-content: center;
+}
+.price{
+  color: orange;
+}
+.PL2{
+  display: flex;
+  justify-content: center;
+}
+.bordure2{
+  background:linear-gradient(rgba(63, 57, 57, 0.842), rgb(0, 0, 0));
+
+  height: 100px;
+}
+ section p{
+  text-align: center;
+}
+.motgras{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+  transition: 1s;
+}
+.img1:hover{
+  transform: scale(1.2);
+}
+.footer-menu {
+  display: block;
+  box-sizing: border-box;
+  height: 500px;
+  background-color: #ff1900;
+  clip-path: ellipse(231% 45% at 198.42% 100%);
+  }
+  .items-menu{
+    padding-left: 15px;
+    margin: 25px;
+    background-color: #ff0000;
+    box-shadow: 10px 10px 20px black;
+    height: 315px;
+    border-radius: 25px;
+    width: 250px;
+  }
+  .items-menu img{
+    height: 145px;
+    width: 145px;
+    display: inline;
+    margin-left: 45px;
+    border-radius: 15px;
+    
+  }
+.allmenu2{
+  width: 200px;
+  height: 150px;
+}
+.title{
+  margin-left: 35px;
+  color: yellow;
+  
+}
+.allM{
+  display: flex;
+}
+.allmenu2{
+  transition: 1s;
+}
+.allmenu2:hover{
+  transform: scale(1.2);
+}
+.allmenu3{
+  transition: 1s;
+}
+.allmenu3:hover{
+  transform: scale(1.2);
+}
+/*fin de main 2eme page*/
+
+/*main 3 page*/
+.Apropos{
+  width: 100%;
+  background-color: grey;
+}
+.Apropos .contenu{
+  display: flex;
+}
+.blur{
+  filter: blur(3px);
+}
+.items-text-propos{
+  position: relative;
+  top: 255px;
+  background-color: rgb(151, 151, 151);
+  border: white;
+  height: 255px;
+  border: black solid;
+}
+h3{
+  display: flex;
+  margin-left: 170px;
+  color: yellow;
+}
+.footer-Apropos{
+  display: block;
+box-sizing: border-box;
+height: 500px;
+background-color: red;
+border: black;
+clip-path: ellipse(66% 30% at 42.64% 100%);
+}
+/*la partie contact*/
+.header_main{
+  background-color: rgb(243, 243, 243);
+}
+.bulle-contact{
+  display: flex;
+  margin: 45px;
+
+}
+.allbulle{
+  display: flex;
+  position: relative;
+  left: 35%;
+ 
+}
+.allbulle2{
+  display: flex;
+  position: relative;
+  left: 33%;
+}
+
+h4{
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+.red{
+  color: red;
+}
+/*reservation*/
+
+.warning{
+ text-align: center;
+ padding: 250px;
+}
